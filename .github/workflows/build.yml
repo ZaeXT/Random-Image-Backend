@@ -62,5 +62,5 @@ jobs:
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: ${{ runner.os }}-build
+        name: ${{ matrix.os }}-build${{ matrix.arch || '' }}
         path: target/release/
