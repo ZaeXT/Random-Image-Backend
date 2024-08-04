@@ -59,4 +59,5 @@ jobs:
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v3
       with:
-        name
+        name: ${{ runner.os }}-build
+        path: target/release/
