@@ -1,2 +1,3 @@
 # Random-Image-Backend
-A simple program for my blog. Made By Actix. Using Rust
+A simple program for my [Blog](https://blog.zaext.top). Made By Actix. Using Rust
+
